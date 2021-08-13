@@ -1,0 +1,8 @@
+#footer .footer-content {
+    color: #999999 !important;
+}
+@media screen and (max-width: 576px) {
+    .subscribe {
+        margin-top: 20px;
+    }
+}

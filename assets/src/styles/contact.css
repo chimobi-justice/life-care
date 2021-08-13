@@ -1,0 +1,46 @@
+.contact-center-icon  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-center-icon  h2::after {
+    width: 50px;
+    height: 4px;
+    background: #39b49b;
+    content: "";
+    display: block;
+    margin: 10px auto 0;
+}
+
+.first-contact-box {
+    background: rgba(0,0,0,.8);
+}
+.second-contact-box {
+    background: url(../../public/images/faker-map.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: 100%;
+}
+
+.contact-brand-logo {
+    position: relative;
+}
+.contact-brand-logo img {
+    width: 240px;
+    height: 40px;
+}
+
+@media screen and (max-width: 576px) {
+    .first-contact-box {
+        height: auto;
+    }
+    .first-contact-box form div div {
+        margin: 5px 0px 5px 0px;
+    }
+    .second-contact-box {
+        height: 250px;
+    }
+}
